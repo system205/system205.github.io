@@ -17,8 +17,8 @@
 <header>
 	<h1>{text}</h1>
 	<nav>
-		<a href="{base}/"><button class="menu-item">Intro</button></a>
-		<a href="{base}/about"><button class="menu-item">About</button></a>
+		<a href="/"><button class="menu-item">Intro</button></a>
+		<a href="/about"><button class="menu-item">About</button></a>
 	</nav>
 </header>
 
