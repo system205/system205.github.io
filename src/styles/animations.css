@@ -4,7 +4,7 @@
     }
 
     50% {
-        content: url("../images/youtube-inverse.png");
+        content: url("/images/youtube-inverse.png");
     }
 
     100% {
@@ -24,7 +24,7 @@
     }
 
     50% {
-        content: url("../images/vk-inverse.png");
+        content: url("/images/vk-inverse.png");
     }
 
     100% {
@@ -44,7 +44,7 @@
     }
 
     50% {
-        content: url("../images/telegram-inverse.png");
+        content: url("/images/telegram-inverse.png");
     }
 
     100% {
@@ -64,7 +64,7 @@
     }
 
     50% {
-        content: url("../images/discord-inverse.png");
+        content: url("/images/discord-inverse.png");
     }
 
     100% {
