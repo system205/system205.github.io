@@ -15,6 +15,9 @@ const config = {
 		paths: {
 			base: dev ? '' : '/system205.github.io',
 		},
+		prerender: {
+			default: true
+		},
 	}
 };
 
