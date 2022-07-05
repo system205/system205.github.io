@@ -41,6 +41,9 @@
 		height: 100%;
 		background-color: #85929e;
 	}
+	.menu-item:hover {
+		transform: scale(1.1);
+	}
 	.menu-item:focus {
 		text-shadow: 0 0 5px #aeb6bf;
 	}
