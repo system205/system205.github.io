@@ -1,6 +1,5 @@
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
-// import { base } from '$app/paths';
 
 const dev = process.env.NODE_ENV === 'development';
 
@@ -16,9 +15,9 @@ const config = {
 			base: dev ? '' : '/system205.github.io',
 		},
 		prerender: {
-			default: true
+			default: true,
 		},
-	}
+	},
 };
 
 export default config;

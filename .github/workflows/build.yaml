@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-          
+
       - name: Install dependencies
         run: npm ci
       - name: Build website
@@ -25,4 +25,3 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build
- 
