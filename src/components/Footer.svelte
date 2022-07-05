@@ -22,7 +22,7 @@
 				<img
 					id="Telegram-img"
 					class="media-image"
-					src="/images/telegram.png"
+					src="images/telegram.png"
 					title="Telegram"
 					alt="Telegram"
 				/></a
