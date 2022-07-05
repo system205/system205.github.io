@@ -1,17 +1,5 @@
 <script lang="ts">
-	import { base } from '$app/paths';
-
-	import { createEventDispatcher } from 'svelte';
-
-	export let text: string = 'Arsen Mutalapov';
-	const a = () => {
-		console.log('Clicked');
-	};
-
-	const dispatch = createEventDispatcher<{ page: string }>();
-	function changePage(page: string) {
-		dispatch('page', page);
-	}
+	export let text = 'Arsen Mutalapov';
 </script>
 
 <header>

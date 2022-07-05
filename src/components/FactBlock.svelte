@@ -1,6 +1,6 @@
 <script lang="ts">
-	let what: string = '500';
-	let fact: string = 'Server';
+	let what = '500';
+	let fact = 'Server';
 	async function newFact() {
 		try {
 			const response = await fetch('http://numbersapi.com/random/math');
