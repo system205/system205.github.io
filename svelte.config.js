@@ -12,7 +12,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : '/system205.github.io',
+			// base: dev ? '' : '/system205.github.io',
 		},
 		prerender: {
 			default: true,
