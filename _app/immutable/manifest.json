@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-1b157c5b.js",
+    "file": "start-d6cb9eea.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-f3fae1b4.js",
+      "_index-58e8966f.js",
       "_paths-396f020f.js"
     ],
     "dynamicImports": [
@@ -15,47 +15,50 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-768880ec.js",
+    "file": "pages/__layout.svelte-641a7c95.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f3fae1b4.js",
+      "_index-58e8966f.js",
       "_paths-396f020f.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-71b58055.css"
+      "assets/pages/__layout.svelte-4f1efe19.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-ff2b4d17.js",
+    "file": "error.svelte-d17ff57b.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f3fae1b4.js"
+      "_index-58e8966f.js"
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-d6678f80.js",
+    "file": "pages/about.svelte-8a7c8226.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f3fae1b4.js"
+      "_index-58e8966f.js"
+    ],
+    "css": [
+      "assets/pages/about.svelte-50f94094.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-072100d3.js",
+    "file": "pages/index.svelte-2bd7d09b.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f3fae1b4.js"
+      "_index-58e8966f.js"
     ]
   },
-  "_index-f3fae1b4.js": {
-    "file": "chunks/index-f3fae1b4.js"
+  "_index-58e8966f.js": {
+    "file": "chunks/index-58e8966f.js"
   },
   "_paths-396f020f.js": {
     "file": "chunks/paths-396f020f.js"
