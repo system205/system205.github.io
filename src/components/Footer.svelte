@@ -7,13 +7,13 @@
 		<span>Social Media</span>
 		<nav>
 			<a href="https://vk.com/arsen205" target="_blank"
-				><img id="VK-img" class="media-image" src="{base}/images/vk.png" title="VK" alt="VK" />
+				><img id="VK-img" class="media-image" src="./images/vk.png" title="VK" alt="VK" />
 			</a>
 			<a href="https://www.youtube.com/channel/UCn2PB--35GVCPU_CH7JUlkQ/videos" target="_blank"
 				><img
 					id="YouTube-img"
 					class="media-image"
-					src="{base}/images/youtube.png"
+					src="images/youtube.png"
 					title="YouTube"
 					alt="YouTube"
 				/></a
@@ -22,7 +22,7 @@
 				<img
 					id="Telegram-img"
 					class="media-image"
-					src="{base}/images/telegram.png"
+					src="/images/telegram.png"
 					title="Telegram"
 					alt="Telegram"
 				/></a
@@ -31,7 +31,7 @@
 				<img
 					id="Discord-img"
 					class="media-image"
-					src="{base}/images/discord.png"
+					src="images/discord.png"
 					title="Discord"
 					alt="Discord"
 				/></a
