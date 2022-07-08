@@ -5,4 +5,5 @@ export const a = {
 	b: 3,
 	c: 4,
 	d: 5,
+	f: 6,
 };
