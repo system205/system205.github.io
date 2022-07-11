@@ -11,9 +11,6 @@ jobs:
     permissions: write-all
     name: Run format and lint
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      security-events: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
