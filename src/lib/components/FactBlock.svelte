@@ -5,8 +5,7 @@
 		try {
 			const response = await fetch('http://numbersapi.com/random/math');
 			const data: string[] = (await response.text()).split(' is ');
-			fact = data[1];
-			what = data[0];
+			[what, fact] = data;
 		} catch (e) {
 			fact = 'Server';
 			what = '500';

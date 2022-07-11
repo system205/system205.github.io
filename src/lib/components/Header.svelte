@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let text = 'Arsen Mutalapov';
+	export const text = 'Arsen Mutalapov';
 </script>
 
 <header>
