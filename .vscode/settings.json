@@ -1,8 +1,10 @@
 {
 	"editor.formatOnSave": true,
-
+	"eslint.options": {
+		"overrideConfigFile": ".eslintrc.cjs"
+	},
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
-	"eslint.validate": ["javascript"]
+	"eslint.validate": ["javascript", "typescript", "svelte"]
 }
