@@ -11,6 +11,7 @@
 			what = '500';
 		}
 	}
+	const        e             =          2;
 </script>
 
 <div id="slider">
