@@ -22,8 +22,6 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - uses: sibiraj-s/action-eslint@v2
-        with:
-          eslint-args: '--ignore-path=.gitignore'
-          extensions: 'js,jsx,ts,tsx,svelte'
-          annotations: true
+      - name: Startr linting
+      - run: npm run format
+      - run: npm run lint
