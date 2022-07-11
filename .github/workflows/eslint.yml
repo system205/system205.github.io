@@ -20,6 +20,8 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
+        env:
+          CI: TRUE
       - name: Start linting
         run: npm run format
       - name: Format code
