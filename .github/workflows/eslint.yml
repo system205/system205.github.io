@@ -23,5 +23,5 @@ jobs:
           node-version: 16
       - run: npm ci
       - name: Startr linting
-      - run: npm run format
+        run: npm run format
       - run: npm run lint
