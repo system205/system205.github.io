@@ -1,5 +1,7 @@
 <script lang="ts">
 	import FactBlock from './FactBlock.svelte';
+
+	const e = 2;
 </script>
 
 <div id="flex">
