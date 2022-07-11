@@ -1,4 +1,4 @@
-name: ESLint
+name: ESLint and Prettier
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   eslint:
-    name: Run eslint scanning
+    name: Run format and lint
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -20,6 +20,7 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - name: Startr linting
+      - name: Start linting
         run: npm run format
-      - run: npm run lint
+      - name: Format code
+        run: npm run lintGit
