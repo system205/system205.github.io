@@ -7,7 +7,7 @@
 			const data: string[] = (await response.text()).split(' is ');
 			[what, fact] = data;
 		} catch (e) {
-			fact = 'Server!';
+			fact = 'Server';
 			what = '500';
 		}
 	}
