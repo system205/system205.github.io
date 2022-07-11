@@ -66,11 +66,17 @@
 	},
 	"jest": {
 		"transform": {
-			"^.+\\.js$": "babel-jest",
-			"^.+\\.svelte$": "svelte-jester"
+			"^.+\\.svelte$": [
+				"svelte-jester",
+				{
+					"preprocess": true
+				}
+			],
+			"^.+\\.ts$": "ts-jest"
 		},
 		"moduleFileExtensions": [
 			"js",
+			"ts",
 			"svelte"
 		],
 		"testEnvironment": "jsdom"
